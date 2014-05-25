@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# Simple podcast client which keeps track of downloaded files
+#
+# Dependencies: curl, libxslt
 set +o posix
 BASEDIR="$(dirname "$(realpath "$0")")"
 
